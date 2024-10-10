@@ -1,5 +1,8 @@
 <div>
     projects show livewire component
 
-    @dump($project)
+    <pre>
+        title: {{ $project->title }}
+        description: {!! $project->description !!}
+    </pre>
 </div>
