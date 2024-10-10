@@ -1,9 +1,3 @@
 <x-layouts.app>
-    todo: projects show
-
-    <br />
-
-    <pre>
-        @dd(request()->route('project'))
-    </pre>
+    <livewire:projects.show :$project />
 </x-layouts.app>

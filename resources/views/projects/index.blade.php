@@ -1,9 +1,3 @@
 <x-layouts.app>
-    todo: projects index
-
-    <br />
-
-    <a href="{{ route('projects.show', 1) }}">
-        primeiro projeto
-    </a>
+    <livewire:projects.index />
 </x-layouts.app>
